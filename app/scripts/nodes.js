@@ -20,7 +20,7 @@ nodes.nodeTypes = {
     MUSIC: "MUSIC",
     GO: "GO",
     EOSC: "EOSC",
-    AKROMA: "AKROMA",
+    AKROMA: "AKA",
     ESN: "ESN",
     Custom: "CUSTOM ETH"
 };
@@ -327,7 +327,7 @@ nodes.nodeList = {
         'lib': new nodes.customNode('https://node.eos-classic.io', '')
     },
     'akroma': {
-        'name': 'AKA',
+        'name': 'AKROMA',
         'blockExplorerTX': 'https://akroma.io/explorer/transaction/[[txHash]]',
         'blockExplorerAddr': 'https://akroma.io/explorer/address/[[address]]',
         'type': nodes.nodeTypes.AKROMA,
